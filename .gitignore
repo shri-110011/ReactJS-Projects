@@ -1,0 +1,15 @@
+# Dependencies
+**/node_modules
+
+# Folders to be excluded
+/Example Projects
+/react-complete-guide-code-01-getting-started
+/react-complete-guide-code-02-js-refresher
+/react-complete-guide-code-03-react-basics-working-with-components
+/react-complete-guide-code-04-react-state-events
+/react-complete-guide-code-05-rendering-lists-conditional-content
+/react-complete-guide-code-06-styling
+/react-complete-guide-code-10-side-effects-reducers-context-api
+
+# Files to be excluded
+package-lock.json

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      // Strongly simplified (imaginary!) - useEffect implementation
+
+      let cleanup;
+      let unmountComponent = false;
+
+      const useEffect = (doSomething) => {
+        if (cleanup) cleanup();
+        if (!unmountComponent) cleanup = doSomething();
+      };
+
+      // Component definition
+
+      const MyComponent = ({ prop }) => {
+        useEffect(() => {
+          console.log(`Do something using prop ${prop}`);
+          return () =>
+            console.log(`Cleanup everything which uses prop ${prop}`);
+        });
+      };
+
+      // Subsequent component function calls
+
+      console.log("----- FIRST RENDER: -----");
+
+      MyComponent({ prop: "A" });
+
+      console.log("----- SECOND RENDER: -----");
+
+      MyComponent({ prop: "B" });
+
+      console.log("----- THIRD RENDER: -----");
+
+      MyComponent({ prop: "C" });
+
+      unmountComponent = true;
+
+      console.log("----- LAST RENDER: -----");
+
+      MyComponent({ prop: null });
+    </script>
+  </head>
+</html>

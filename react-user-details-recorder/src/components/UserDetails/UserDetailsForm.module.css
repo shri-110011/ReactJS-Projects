@@ -1,0 +1,19 @@
+.user-details-form {
+    padding: 10px;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 40rem;
+}
+
+.user-details-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.user-details-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.15rem;
+}

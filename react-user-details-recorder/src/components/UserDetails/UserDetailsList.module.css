@@ -1,0 +1,19 @@
+.users-list {
+    padding: 10px;
+    width: 90%;
+    margin: 2rem auto;
+    max-width: 40rem;
+}
+
+.users-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+.users-list li  {
+    border: 1px solid lightgrey;
+    padding: 0.5rem;
+    font-weight: 700;
+    margin: 0.5rem auto;
+}
