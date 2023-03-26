@@ -12,6 +12,7 @@
 /react-complete-guide-code-10-side-effects-reducers-context-api
 /react-complete-guide-code-12-a-look-behind-the-scenes
 /react-complete-guide-code-13-class-based-cmp
+/react-complete-guide-code-14-sending-http-requests
 
 # Files to be excluded
 package-lock.json
