@@ -1,0 +1,51 @@
+.card ul {
+    margin: 0;
+    padding: 0;
+    height: calc(100% - 3rem);
+}
+
+.card li {
+    list-style-type: none;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    overflow: hidden;
+}
+
+.card {
+    border: 1px solid rgb(61, 117, 117);
+    border-radius: 0.5rem;
+    width: 20rem;
+    background-color: aqua;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.card footer {
+    background-color: rgb(51, 169, 169);
+    padding: 0.5rem;
+    height: 2rem;
+}
+
+.card button {
+    cursor: pointer;
+}
+
+.apply-btn:hover, .course-drop-btn:hover {
+    /* cursor: pointer; */
+    background-color: rgba(64, 56, 56, 0.9);
+}
+
+.apply-btn, .course-drop-btn {
+    background-color: rgb(64, 56, 56);
+    color: white;
+    padding: 0.3rem 1rem;
+}
+
+.rating-dropdown {
+    margin: 0 0.5rem;
+    width: 3rem
+}
+
+.course-drop-btn {
+    float: right;
+    margin-right: 1rem;
+}
