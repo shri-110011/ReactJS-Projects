@@ -1,0 +1,46 @@
+.container {
+    background-color: blueviolet;
+    color: azure;
+    font-family: helvetica;
+}
+
+.container h2 {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.controls {
+    width: 90vw;
+    margin: 1rem auto;
+}
+
+.controls button {
+    margin: 1rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: rgb(222 27 124);
+    font-size: 18px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    cursor: pointer;
+    background-color: rgba(222, 27, 124, 0.6);
+    font-weight: 500;
+}
+
+.speed-control {
+    display: inline-block;
+    margin: 1rem;
+    height: 2rem;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.speed-control select {
+    width: 9rem;
+    height: 100%;
+    font-size: 18px;
+}
